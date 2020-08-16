@@ -12,5 +12,5 @@ grep "'git'" $HOME/.zprezto/runcoms/zpreztorc > /dev/null 2>&1
 
 # Add git module if it hasn't been installed yet
 if [ $? -ne 0 ]; then
-  shell: sed -i '' -e "/'completion'/p; s/completion/git/" $HOME/.zprezto/runcoms/zpreztorc
+  sed -i '' -e "/'completion'/p; s/completion/git/" $HOME/.zprezto/runcoms/zpreztorc
 fi
