@@ -7,5 +7,6 @@
 brew bundle
 
 # Install others
-./plugins/install_prezto.zsh
+./plugins/install_anyenv.zsh
 ./plugins/install_dotfiles.zsh
+./plugins/install_prezto.zsh
