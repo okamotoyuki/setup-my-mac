@@ -1,3 +1,4 @@
+brew "anyenv"
 brew "jq"
 brew "mas"
 brew "octave"
