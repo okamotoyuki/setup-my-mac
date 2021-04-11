@@ -15,6 +15,7 @@ cask "pycharm"
 cask "shiftit"
 cask "slack"
 cask "visual-studio-code"
+cask "kindle"
 
 mas "LastPass Password Manager", id: 926036361
 mas "LINE", id: 539883307
